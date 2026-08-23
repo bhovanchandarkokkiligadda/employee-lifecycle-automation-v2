@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE">
+    <sys_id>f3d77494a1b743cd9571c171b10cca4f</sys_id>
+    <sys_scope display_value="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Open a Catalog Item</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>2516c0e1c332220076173b0ac3d3ae39</step_config>
+    <table/>
+    <test>b8aa305de4354005b710d637421ce1c1</test>
+    <timeout/>
+    <warning_message/>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=f3d77494a1b743cd9571c171b10cca4f"/>
+  <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_id>425e9b1a3a7f44318870e56dd6cf1b9b</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>f3d77494a1b743cd9571c171b10cca4f</document_key>
+    <value>63c0b45b1b624edaae59d0a12486b86e</value>
+    <variable>b0d64ce1c332220076173b0ac3d3ae95</variable>
+    <order>100</order>
+  </sys_variable_value>
+</record_update>
