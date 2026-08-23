@@ -1,33 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
-  <sys_atf_step action="INSERT_OR_UPDATE">
-    <sys_id>c1fbf7553f554ff58fa144379fb18d45</sys_id>
-    <sys_scope display_value="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
-    <active>true</active>
-    <description/>
-    <display_name>Set Variable Values</display_name>
-    <notes/>
-    <order>2</order>
-    <step_config>323ca6e1c3b2220076173b0ac3d3aec1</step_config>
-    <table/>
-    <test>b8aa305de4354005b710d637421ce1c1</test>
-    <timeout/>
-    <warning_message/>
-  </sys_atf_step>
-  <sys_variable_value action="delete_multiple" query="document_key=c1fbf7553f554ff58fa144379fb18d45"/>
-  <sys_variable_value action="INSERT_OR_UPDATE">
-    <sys_id>493685ccc23b4a4bba7afc7ea725ccbb</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>c1fbf7553f554ff58fa144379fb18d45</document_key>
-    <value>IO:f3db47f059ca4fcc8cc4ccd8a3822474=onboarding^IO:f6fd9e34ab1d4a70bfb8a91b5ff5a25d=Rahul Sharma^IO:47305a6afb23475ebd17fcde4a2e7e7f=EMP1001^IO:bb1414a20a704a4a90cae4b644630c4a=Information Technology^IO:9d6fc82d5a344b189469a498b5657e90=Demo Manager^IO:8980644109ba4588b50ac89d71f9b5ad=2025-02-01^IO:f6ab145ef84348e597a515b04022db7e=Laptop, ID Card, Monitor^IO:b603716ab3f04648aed7d9827168185b=Email, VPN, HR Portal, SharePoint^EQ</value>
-    <variable>346eea25c3b2220076173b0ac3d3ae8b</variable>
-    <order>200</order>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE">
-    <sys_id>f92d9ab44f544b999ff7d9b84ac70ef9</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>c1fbf7553f554ff58fa144379fb18d45</document_key>
-    <value>63c0b45b1b624edaae59d0a12486b86e</value>
-    <variable>571e6a25c3b2220076173b0ac3d3ae46</variable>
-    <order>100</order>
-  </sys_variable_value>
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-23 14:17:00</sys_created_on>
+        <sys_id>c1fbf7553f554ff58fa144379fb18d45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Employee Lifecycle Automation" source="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Lifecycle Automation">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
+        <sys_update_name>sys_atf_step_c1fbf7553f554ff58fa144379fb18d45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-23 14:17:00</sys_updated_on>
+        <table/>
+        <test display_value="Employee Lifecycle - Onboarding Request Submission">b8aa305de4354005b710d637421ce1c1</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c1fbf7553f554ff58fa144379fb18d45"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c1fbf7553f554ff58fa144379fb18d45</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-23 14:52:45</sys_created_on>
+        <sys_id>493685ccc23b4a4bba7afc7ea725ccbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-23 14:52:45</sys_updated_on>
+        <value>IO:f3db47f059ca4fcc8cc4ccd8a3822474=onboarding^IO:f6fd9e34ab1d4a70bfb8a91b5ff5a25d=Rahul Sharma^IO:47305a6afb23475ebd17fcde4a2e7e7f=EMP1001^IO:bb1414a20a704a4a90cae4b644630c4a=Information Technology^IO:9d6fc82d5a344b189469a498b5657e90=Demo Manager^IO:8980644109ba4588b50ac89d71f9b5ad=2025-02-01^IO:f6ab145ef84348e597a515b04022db7e=Laptop, ID Card, Monitor^IO:b603716ab3f04648aed7d9827168185b=Email, VPN, HR Portal, SharePoint^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c1fbf7553f554ff58fa144379fb18d45</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-23 14:52:45</sys_created_on>
+        <sys_id>f92d9ab44f544b999ff7d9b84ac70ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-23 14:52:45</sys_updated_on>
+        <value>63c0b45b1b624edaae59d0a12486b86e</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=c1fbf7553f554ff58fa144379fb18d45"/>
 </record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Employee Lifecycle Request">63c0b45b1b624edaae59d0a12486b86e</catalog_item>
+        <catalog_variable>IO:8980644109ba4588b50ac89d71f9b5ad</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-23 10:55:59</sys_created_on>
+        <sys_id>2f2b29f2468e45c6926568e5826afd03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>joining_date</sys_name>
+        <sys_package display_value="Employee Lifecycle Automation" source="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Lifecycle Automation">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2f2b29f2468e45c6926568e5826afd03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-23 10:55:59</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show offboarding fields when Request Type is Offboarding">c8bf92bab53d454a87bc7c887079994a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>joining_date</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=2f2b29f2468e45c6926568e5826afd03"/>
+</record_update>

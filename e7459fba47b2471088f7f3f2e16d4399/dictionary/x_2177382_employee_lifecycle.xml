@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="4de853b247f2471088f7f3f2e16d437f" label="Employee Lifecycle" max_length="40" name="x_2177382_employee_lifecycle" type="collection">
+        <element label="Department" mandatory="true" max_length="100" name="department" type="string"/>
+        <element label="Employee Name" mandatory="true" max_length="100" name="employee_name" type="string"/>
+        <element label="Joining Date" max_length="40" name="joining_date" type="glide_date"/>
+        <element label="Assets Required" max_length="4000" name="assets_required" type="multi_two_lines"/>
+        <element label="Additional Comments" max_length="4000" name="comments" type="multi_two_lines"/>
+        <element display="true" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Employee ID" mandatory="true" max_length="40" name="employee_id" type="string"/>
+        <element label="Manager" mandatory="true" max_length="100" name="manager" type="string"/>
+        <element label="Access Details" max_length="4000" name="access_details" type="multi_two_lines"/>
+        <element choice="3" default="draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="4" value="in_progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="pending_approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+            </choice>
+        </element>
+        <element choice="3" label="Request Type" mandatory="true" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Onboarding" sequence="1" value="onboarding"/>
+                <element inactive_on_update="false" label="Offboarding" sequence="2" value="offboarding"/>
+            </choice>
+        </element>
+        <element label="Exit Date" max_length="40" name="exit_date" type="glide_date"/>
+    </element>
+</database>

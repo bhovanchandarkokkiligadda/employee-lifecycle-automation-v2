@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[export function setDefaultStatus(current, previous) {
+    if (!current.getValue('status')) {
+        current.setValue('status', 'draft');
+    }
+}
+]]></content>
+        <external_source>false</external_source>
+        <path>x_2177382_employee/x-2177382-employee-lifecycle-automation/1.0.0/src/server/business-rules/set-default-status.ts</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-23 10:56:02</sys_created_on>
+        <sys_id>3e4d2776ccd5453ea458c4e61fb9dc50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2177382_employee/x-2177382-employee-lifecycle-automation/1.0.0/src/server/business-rules/set-default-status.ts</sys_name>
+        <sys_package display_value="Employee Lifecycle Automation" source="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Lifecycle Automation">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
+        <sys_update_name>sys_module_3e4d2776ccd5453ea458c4e61fb9dc50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-23 10:56:02</sys_updated_on>
+    </sys_module>
+</record_update>
