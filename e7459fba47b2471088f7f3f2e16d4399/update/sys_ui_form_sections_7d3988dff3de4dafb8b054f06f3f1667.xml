@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7d3988dff3de4dafb8b054f06f3f1667" sys_domain="global" table="x_2177382_employee_lifecycle" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 14:52:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ab1545328ae4f568f4a40847d758006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2177382_employee_lifecycle" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">7d3988dff3de4dafb8b054f06f3f1667</sys_ui_form>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">6ceda1df5ed14339a4b7c3ad825b05ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 14:52:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 14:52:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14a089665e754e8a8abb9dbaf9f88ce5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2177382_employee_lifecycle" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">7d3988dff3de4dafb8b054f06f3f1667</sys_ui_form>
+            <sys_ui_section caption="Lifecycle Details" display_value="Lifecycle Details" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">19e928837aab4448919f65aedda1eb7e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 14:52:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 14:52:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76a6b170acde4c498a92face46a733d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2177382_employee_lifecycle" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">7d3988dff3de4dafb8b054f06f3f1667</sys_ui_form>
+            <sys_ui_section caption="Resources" display_value="Resources" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">f083e39ac1254755917457b58b37d340</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 14:52:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 14:52:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f78a0e11cc64107837ef5457e803a05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2177382_employee_lifecycle" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">7d3988dff3de4dafb8b054f06f3f1667</sys_ui_form>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_2177382_employee_lifecycle" sys_domain="global" view="Default view">7a5d778bc15c4bc4b8d1f4db70f4429d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 14:52:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2177382_employee_lifecycle</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 10:56:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d3988dff3de4dafb8b054f06f3f1667</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2177382_employee_lifecycle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Lifecycle Automation" source="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Lifecycle Automation">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7d3988dff3de4dafb8b054f06f3f1667</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 10:56:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Order Catalog Item</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Order Catalog Item">c930b4b2c310320076173b0ac3d3aeec</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-23 14:16:59</sys_created_on>
+        <sys_id>2590efd1723e44f887c9c14ed2942833</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Catalog Item</sys_name>
+        <sys_package display_value="Employee Lifecycle Automation" source="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Lifecycle Automation">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
+        <sys_update_name>sys_atf_step_2590efd1723e44f887c9c14ed2942833</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-23 14:16:59</sys_updated_on>
+        <table/>
+        <test display_value="Employee Lifecycle - Onboarding Request Submission">b8aa305de4354005b710d637421ce1c1</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2590efd1723e44f887c9c14ed2942833"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2590efd1723e44f887c9c14ed2942833</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-23 14:52:45</sys_created_on>
+        <sys_id>458edd98f3e14a228cfc0005b6a8d886</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-23 14:52:45</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert type">17513cb2c310320076173b0ac3d3ae64</variable>
+    </sys_variable_value>
+</record_update>

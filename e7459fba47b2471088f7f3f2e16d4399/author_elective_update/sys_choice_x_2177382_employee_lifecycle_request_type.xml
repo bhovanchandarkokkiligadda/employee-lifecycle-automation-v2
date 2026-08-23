@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_type" table="x_2177382_employee_lifecycle" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <name>x_2177382_employee_lifecycle</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 10:55:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>request_type</sys_name>
+            <sys_package display_value="Employee Lifecycle Automation" source="x_2177382_employee">e7459fba47b2471088f7f3f2e16d4399</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Lifecycle Automation">e7459fba47b2471088f7f3f2e16d4399</sys_scope>
+            <sys_update_name>sys_choice_x_2177382_employee_lifecycle_request_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 10:55:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onboarding</label>
+            <language>en</language>
+            <name>x_2177382_employee_lifecycle</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 14:52:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 14:52:51</sys_updated_on>
+            <value>onboarding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offboarding</label>
+            <language>en</language>
+            <name>x_2177382_employee_lifecycle</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-23 14:52:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-23 14:52:51</sys_updated_on>
+            <value>offboarding</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
